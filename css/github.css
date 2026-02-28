@@ -1,0 +1,75 @@
+.react-code-text,
+.react-code-lines,
+.react-file-line {
+    font-family: "JetBrains Mono", monospace !important;
+    font-size: 12px !important;
+}
+
+pre, code {
+    font-family: "JetBrains Mono";
+}
+
+html[data-color-mode="dark"] {
+  --color-prettylights-syntax-comment: #6A9955 !important;
+  --color-prettylights-syntax-keyword: #C586C0 !important;
+  --color-prettylights-syntax-storage-modifier-import: #C586C0 !important;
+  --color-prettylights-syntax-string: #CE9178 !important;
+  --color-prettylights-syntax-variable: #9CDCFE !important;
+  --color-prettylights-syntax-constant: #4FC1FF !important;
+  --color-prettylights-syntax-entity: #DCDCAA !important;
+  --color-prettylights-syntax-support: #4EC9B0 !important;
+  --color-prettylights-syntax-entity-tag: #569CD6 !important;
+  --color-prettylights-syntax-operator: #D4D4D4 !important;
+  --color-prettylights-syntax-markup-inserted: #6A9955 !important;
+  --color-prettylights-syntax-markup-deleted: #F44747 !important;
+}
+
+html[data-color-mode="light"] {
+  --color-prettylights-syntax-comment: #008000 !important;
+  --color-prettylights-syntax-keyword: #0000FF !important;
+  --color-prettylights-syntax-storage-modifier-import: #0000FF !important;
+  --color-prettylights-syntax-string: #A31515 !important;
+  --color-prettylights-syntax-variable: #001080 !important;
+  --color-prettylights-syntax-constant: #098658 !important;
+  --color-prettylights-syntax-entity: #795E26 !important;
+  --color-prettylights-syntax-support: #267F99 !important;
+  --color-prettylights-syntax-entity-tag: #800000 !important;
+  --color-prettylights-syntax-operator: #000000 !important;
+  --color-prettylights-syntax-markup-inserted: #008000 !important;
+  --color-prettylights-syntax-markup-deleted: #A31515 !important;
+}
+
+html[data-color-mode="auto"],
+body[data-color-mode="auto"] {
+
+  @media (prefers-color-scheme: dark) {
+    --color-prettylights-syntax-comment: #6A9955 !important;
+    --color-prettylights-syntax-keyword: #C586C0 !important;
+    --color-prettylights-syntax-storage-modifier-import: #C586C0 !important;
+    --color-prettylights-syntax-string: #CE9178 !important;
+    --color-prettylights-syntax-variable: #9CDCFE !important;
+    --color-prettylights-syntax-constant: #4FC1FF !important;
+    --color-prettylights-syntax-entity: #DCDCAA !important;
+    --color-prettylights-syntax-support: #4EC9B0 !important;
+    --color-prettylights-syntax-entity-tag: #569CD6 !important;
+    --color-prettylights-syntax-operator: #D4D4D4 !important;
+    --color-prettylights-syntax-markup-inserted: #6A9955 !important;
+    --color-prettylights-syntax-markup-deleted: #F44747 !important;
+  }
+
+  @media (prefers-color-scheme: light) {
+    --color-prettylights-syntax-comment: #008000 !important;
+    --color-prettylights-syntax-keyword: #0000FF !important;
+    --color-prettylights-syntax-storage-modifier-import: #0000FF !important;
+    --color-prettylights-syntax-string: #A31515 !important;
+    --color-prettylights-syntax-variable: #001080 !important;
+    --color-prettylights-syntax-constant: #098658 !important;
+    --color-prettylights-syntax-entity: #795E26 !important;
+    --color-prettylights-syntax-support: #267F99 !important;
+    --color-prettylights-syntax-entity-tag: #800000 !important;
+    --color-prettylights-syntax-operator: #000000 !important;
+    --color-prettylights-syntax-markup-inserted: #008000 !important;
+    --color-prettylights-syntax-markup-deleted: #A31515 !important;
+  }
+
+}
